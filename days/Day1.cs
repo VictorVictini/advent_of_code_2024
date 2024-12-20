@@ -5,7 +5,7 @@ namespace AdventOfCode2024 {
             (first, second) = ReadFile();
         }
         private (int[], int[]) ReadFile() {
-            string[] lines = File.ReadAllLines("days/day_1/input.txt");
+            string[] lines = File.ReadAllLines("inputs/day1.txt");
             first = new int[lines.Length];
             second = new int[lines.Length];
             for (int i = 0; i < lines.Length; i++) {
