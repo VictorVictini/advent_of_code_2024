@@ -1,6 +1,3 @@
-using System.Runtime.InteropServices;
-using System.Text.Json.Serialization;
-
 namespace AdventOfCode2024 {
     public class Day2 : Day<int> {
         private int min_diff = 1;
